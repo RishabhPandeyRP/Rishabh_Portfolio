@@ -11,10 +11,10 @@ const Projects = ({ theme }) => {
 
     const [modalStatus, setModalStatus] = useState(false);
 
-    function btnHandler() {
-        console.log("object");
-        setModalStatus(!modalStatus);
-    }
+    // function btnHandler() {
+    //     console.log("object");
+    //     setModalStatus(!modalStatus);
+    // }
 
     function closeModalHandler(){
         setModalStatus(false);

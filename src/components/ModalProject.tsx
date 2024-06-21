@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const ModalProject = ({closeModal})=>{
+const ModalProject = ({closeModal}:any)=>{
     useEffect(()=>{
         document.body.style.overflowY = "hidden"
         document.body.style.overflowX = "hidden"

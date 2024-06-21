@@ -1,7 +1,6 @@
 import Buttons from "../Buttons";
 import Skills from "../Skills";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 const Project1 = ({ details, theme, skill_arr }: any) => {
     //let skill_arr = ["HTML", "Javascript", "Tailwind CSS", "RegEx"];
