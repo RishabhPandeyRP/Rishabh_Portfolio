@@ -52,7 +52,7 @@ const NavBar = ({ theme, func }) => {
                 </div>
             </div>
             <div className=" w-fit h-fit  border border-slate-200 bg-slate-200 rounded-lg ml-7 hover:bg-slate-300 duration-75 lg:hidden xl:hidden" onClick={func}>
-                    <img src={darkTheme} alt="" className="w-[35px] h-[35px]" />
+                    <img src={darkTheme} alt="" className="w-[35px] h-[35px] xs:w-[30px] xs:h-[30px]" />
             </div>
         </div>
             :
@@ -99,6 +99,9 @@ const NavBar = ({ theme, func }) => {
                         <img src={lightTheme} alt="" className="w-[25px] h-[25px]" />
                     </div>
                 </div>
+                <div className=" p-1 w-fit h-fit  border border-slate-200 bg-slate-200 rounded-lg ml-7 hover:bg-slate-300 duration-75 lg:hidden xl:hidden" onClick={func}>
+                    <img src={lightTheme} alt="" className="w-[25px] h-[25px] xs:w-[20px] xs:h-[20px]" />
+            </div>
             </div>
     )
 }
