@@ -17,7 +17,7 @@ const NavBar = ({ theme, func }) => {
             <div className="flex justify-center w-fit items-center gap-5 mt-2 lg:mx-7 sm:mx-auto xs:mx-auto">
                 <img src={profilepic2} alt="" className="w-[60px] h-[60px] rounded-full object-contain  border-red-500" />
 
-                <p className=" border-red-600 font-pop text-2xl sm:text-2xl">
+                <p className=" border-red-600 font-pop text-2xl sm:text-2xl xs:text-xl">
                     Rishabh Pandey
                 </p>
             </div>
@@ -61,7 +61,7 @@ const NavBar = ({ theme, func }) => {
                 <div className="flex justify-center w-fit items-center gap-5 mt-2 lg:mx-7 sm:mx-auto xs:mx-auto">
                     <img src={profilepic} alt="" className="w-[60px] h-[60px] rounded-full object-contain  border-red-500" />
 
-                    <p className=" border-red-600 font-pop text-2xl sm:text-2xl">
+                    <p className=" border-red-600 font-pop text-2xl sm:text-2xl xs:text-xl">
                         Rishabh Pandey
                     </p>
                 </div>
