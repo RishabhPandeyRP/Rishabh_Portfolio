@@ -13,7 +13,7 @@ const Home = ({theme}) => {
     
 
     return (
-        theme == "light" ? <div className=" bg-gradient-to-b from-[#fef4f4] to-[#FAFAFA]  border-red-500  h-fit relative  overscroll-x-hidden" id="home">
+        theme == "light" ? <div className=" bg-gradient-to-b from-[#fef4f4] to-[#FAFAFA]  border-red-500  h-fit relative  overscroll-x-hidden pt-1 pb-1 mb-0" id="home">
 
         <div className=" w-fit mx-auto mt-[13%] font-bold lg:text-6xl xl:text-6xl font-pop sm:text-3xl  border-green-500 xs:text-lg">
             <p>HEY, I AM RISHABH PANDEY</p>
