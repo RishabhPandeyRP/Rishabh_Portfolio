@@ -8,7 +8,7 @@ const Project1 = ({ details, theme, skill_arr }: any) => {
     const navigate = useNavigate();
 
     return (
-        theme == "light" ? <div className=" bg-gradient-to-b from-[#fef4f4] to-[#FAFAFA]  border-red-500  h-fit relative  overscroll-x-hidden mb-10">
+        theme == "light" ? <div className=" border-red-500  h-fit relative  overscroll-x-hidden mb-10">
 
             <div className=" w-fit mx-auto mt-[5%] mb-[5%] font-bold lg:text-6xl xl:text-6xl font-pop sm:text-5xl  border-green-500 xs:text-4xl lg:px-[5%]">
                 <p>{details.title}</p>
